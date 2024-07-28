@@ -1,0 +1,124 @@
+/* Container Section */
+section {
+    margin: 10px auto 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    max-width: 90%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Legend */
+.legend {
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+/* Prompt */
+.prompt {
+    margin-bottom: 1em;
+}
+
+/* Response Placeholder */
+.response-placeholder {
+    margin-top: 0.5em;
+    color: grey;
+}
+
+/* Input and Select */
+input, select {
+    margin-left: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: calc(100% - 1em);
+    box-sizing: border-box;
+}
+
+select {
+    margin-top: 15px;
+    padding: 0.1em;
+    width: calc(20%);
+    border: solid 1px black;
+}
+
+#transportation-limit, #food-limit, #materials-limit {
+    margin-top: 0;
+    padding: 0.5em;
+    width: calc(100% - 1em);
+}
+
+/* Prompt Section */
+#prompt-section {
+    text-align: center;
+}
+
+#prompt-section input[type="text"],
+#prompt-section button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#prompt-section input[type="text"] {
+    border: solid 1px #0056b3;
+    background-color: #fff;
+}
+
+/* AI Responses */
+#ai-responses {
+    margin-top: 1em;
+}
+
+.user-message,
+.ai-message {
+    margin-bottom: 1em;
+    font-size: 0.9em;
+}
+
+.ai-message {
+    font-weight: bold;
+}
+
+/* Button Group */
+.button-group {
+    text-align: center;
+}
+
+.button-group button {
+    margin-right: 0.5em;
+    margin-top: 2em;
+}
+
+/* Conversation Area */
+#conversation-area {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Button */
+.button {
+    padding: 0.5em 1.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #152d99;
+}
